@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font: Arial;
+}
+
+h1 {
+    font-family: monospace;
+    color: dodgerblue;
+}
+
+h3 {
+    font-family: monospace;
+    color: indigo;
+}
+
+span {
+    font-family: Arial;
+    color: dimgray;
+    font-size: 18px;   
+}
+
+.destaque {
+    background-color: yellow;
+}
+
+#destaqueEspecial {
+    background-color: aquamarine;
+}
