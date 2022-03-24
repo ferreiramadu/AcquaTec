@@ -23,6 +23,9 @@ span {
     background-color: yellow;
 }
 
+.destaque span {
+    background-color: blueviolet;
+}
 #destaqueEspecial {
     background-color: aquamarine;
 }
