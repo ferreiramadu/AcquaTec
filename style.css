@@ -1,31 +1,27 @@
 body {
     margin: 0;
-    font: Arial;
+    padding: 0;
+    border: 0;
 }
 
-h1 {
-    font-family: monospace;
-    color: dodgerblue;
+.container {
+    width: 80%;
 }
 
-h3 {
-    font-family: monospace;
-    color: indigo;
+.header .container {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.header {
+    background-color: #000407;
+    color: #32B9CD;
 }
 
-span {
-    font-family: Arial;
-    color: dimgray;
-    font-size: 18px;   
-}
-
-.destaque {
-    background-color: yellow;
-}
-
-.destaque span {
-    background-color: blueviolet;
-}
-#destaqueEspecial {
-    background-color: aquamarine;
+.navbar {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
 }
