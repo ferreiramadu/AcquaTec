@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    border: 0;
+    font-family: 'Barlow', sans-serif;
 }
 
 .container {
     width: 80%;
+    margin: 0 auto;
 }
 
 .header .container {
@@ -16,6 +17,7 @@ body {
 .header {
     background-color: #000407;
     color: #32B9CD;
+    border-bottom: 3px solid #32B9CD;
 }
 
 .navbar {
@@ -24,4 +26,102 @@ body {
     justify-content: space-between;
     list-style: none;
     align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E3B062;
+}
+
+.agora {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: url('img/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    height: 550px;
+}
+
+.banner .container.login {
+    justify-content: center;
+}
+
+.banner p {
+    width: 280px;
+    font-size: 36px;
+    margin-left: 20%;
+}
+
+.footer {
+    background-color: #32B9CD;
+    color: #FFF;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background-color: #E5E5E5;
+    color: #E6005A;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+
+.card form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+form input {
+    margin-top: 8px;
+    border: 0;
+    border-radius: 10px;
+    outline: 3px solid #32B9CD;
+    padding: 8px;
+}
+
+form button {
+    width: 120px;
+    margin-top: 16px;
+    background-color: #E6005A;
+    color: #FFF;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 18px;
+
+    /*ALINHAR SOMENTE ELE MESMO*/
+    align-self: center;
+}
+
+form button:hover {
+    background-color: #f71b6f;
 }
