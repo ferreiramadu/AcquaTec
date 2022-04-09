@@ -81,6 +81,7 @@ body {
     height: 350px;
     background-color: #E5E5E5;
     color: #E6005A;
+    padding: 50px 0;
 }
 
 .card h2 {
@@ -124,4 +125,34 @@ form button {
 
 form button:hover {
     background-color: #f71b6f;
+}
+
+.sectionImages {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
+
+.sectionImages div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 222px;
+}
+
+.sectionImages img {
+    width: 150px;
+}
+
+.sectionImages h1 {
+    color: #E6005A;
+    font-size: 22px;
+}
+
+.sectionImages p {
+    text-align: center;
 }
